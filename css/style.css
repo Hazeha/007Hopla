@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 /* CSS Document */
+body, main, nav, section, article, footer{
+	border: 1px solid grey;
+}
 
 html{
 font-family: 'Source Sans Pro', sans-serif;
@@ -9,7 +12,7 @@ font-family: 'Source Sans Pro', sans-serif;
 /* Loading image on body */
 
 body {
-  background-image: url("background.jpg");
+  background-image: url("../img/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,6 +20,11 @@ body {
   text-align: center;
 }
 
+main{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
 /* styling the buttons */
 
 nav a {
@@ -35,46 +43,55 @@ nav a {
 
 /* About page text div / the whole text styling */
 
-.textField{
-	display: block;
+section{
+	display: flex;
 	padding-top: 0;
-	width: 60%;
+	width: 100%;
 	margin: auto;
 	color: white;
 }
-
+.column{
+	flex-direction: column;
+}
+.row{
+	flex-direction: row;
+}
+.center{
+	justify-content: center;
+}
 /* headers - about, activity, contacts and paragraphs */
 
-.textField h1{
+section h1{
 	font-size: 60pt;
 	padding-bottom: 10px;
 }
 
-.textField p{
+section p{
 	font-size: 12pt;
-	font-weight: 300;
+}
+
+h4{
 	text-align: left;
 }
-
-.h4{
-	text-align: left
-}
 /*picture gallery*/
-
-div.gallery {
-    margin: 25px;
-    border: thin; 
-    float:left;
-    width:340px;
+.gallery{
+	margin: 25px;
+	border: 1px solid grey;
+	border-radius: 20px;
+    width: 20%;
+    height: 20%;
 }
 
-div.gallery img {
-    
+article{
+	margin: 25px;
+	border-radius: thin;
+	float: left;
+	width: 33%;
 }
 
-div.gallery img {
-    width: 100%;
-    height: auto;
+article img{
+	width: 100%;
+	height: auto;
 }
 /* Logo on all pages */
 
@@ -94,51 +111,51 @@ div.gallery img {
 
 /* Sponsors image */
 
-.sponsors img{
+.sponsors{
 	max-width: 180px;
 	padding-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
-	dispay: block;
+	display: block;
 	
 }
 /* schedule image*/
-.schedule img{
+.schedule{
 	max-width: 500px;
 	padding-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	dispay: block;
+	display: block;
 }
 /* maps image*/
 
-.maps img{
+.maps{
 	max-width: 500px;
 	padding-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	dispay: block;
+	display: block;
 
 }
 
 /*insta icon*/
 
-.insta img{
+.insta{
 	max-width: 30px;
 	padding-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
-	dispay: block;
+	display: block;
 }
 
 /*facebook icon*/
 
-.facebook img{
+.facebook{
 	max-width: 30px;
 	padding-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	dispay: block;
+	display: block;
 }
 /* Welcome heading styling */
 
