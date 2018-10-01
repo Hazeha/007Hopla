@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+html{
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Loading image on body */
+
+body {
+  background-image: url("background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+/* styling the buttons */
+
+nav a {
+    border: none;
+    color: white;
+    padding: 25px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: 400;
+	transition-duration: 0.4s;
+}
+
+/* About page text div / the whole text styling */
+
+.textField{
+	display: block;
+	padding-top: 0;
+	width: 60%;
+	margin: auto;
+	color: white;
+}
+
+/* headers - about, activity, contacts and paragraphs */
+
+.textField h1{
+	font-size: 60pt;
+	padding-bottom: 10px;
+}
+
+.textField p{
+	font-size: 12pt;
+	font-weight: 300;
+	text-align: left;
+}
+
+.h4{
+	text-align: left
+}
+/*picture gallery*/
+
+div.gallery {
+    margin: 25px;
+    border: thin; 
+    float:left;
+    width:340px;
+}
+
+div.gallery img {
+    
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+/* Logo on all pages */
+
+.logo {
+	padding-top: 70px;
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width: 180px;
+}
+
+/* Welcome message */
+
+.welcome{
+	padding-top: 20px;
+}
+
+/* Sponsors image */
+
+.sponsors img{
+	max-width: 180px;
+	padding-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	dispay: block;
+	
+}
+/* schedule image*/
+.schedule img{
+	max-width: 500px;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	dispay: block;
+}
+/* maps image*/
+
+.maps img{
+	max-width: 500px;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	dispay: block;
+
+}
+
+/*insta icon*/
+
+.insta img{
+	max-width: 30px;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	dispay: block;
+}
+
+/*facebook icon*/
+
+.facebook img{
+	max-width: 30px;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	dispay: block;
+}
+/* Welcome heading styling */
+
+.welcome h1 {
+	color: white;
+	padding-bottom:25px;
+	margin: 0;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 100pt;
+}
+
+/* Welcome description styling */
+
+.welcomeDesc{
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	padding-bottom:30px;
+}
+
+.welcomeDesc h1{
+	font-weight: 400;
+	font-style: italic;
+	font-size: 12pt;
+	
+}
+
+
+/*button animation*/
+a:hover{
+	letter-spacing: 4px;
+}
